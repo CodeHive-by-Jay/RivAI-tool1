@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended GitHub-Inspired Profile</title>
+    <style>
+        /* Base Styles */
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main Container - Extends Full Width */
+        .profile-section {
+            display: flex;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            width: 95%;
+            max-width: 1400px;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+
+        /* Profile Info - Left Section */
+        .profile-container {
+            width: 40%;
+            padding: 30px;
+            background-color: #161b22;
+            text-align: center;
+            border-right: 1px solid #30363d;
+        }
+
+        /* Profile Image */
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #30363d;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* Name and Username */
+        .profile-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        .username,
+        .pronouns {
+            font-size: 1rem;
+            color: #8b949e;
+            margin: 5px 0;
+        }
+
+        /* Edit Profile Button */
+        .edit-btn {
+            background-color: #238636;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            width: 60%;
+            padding: 12px 0;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 15px auto;
+            font-weight: bold;
+            display: block;
+        }
+
+        .edit-btn:hover {
+            background-color: #2ea043;
+        }
+
+        /* Stats */
+        .stats {
+            font-size: 1rem;
+            color: #8b949e;
+            margin: 15px 0;
+        }
+
+        /* Links */
+        .links {
+            margin-top: 15px;
+        }
+
+        .links a {
+            display: block;
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            margin: 8px 0;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Right Section - Content Placeholder */
+        .content {
+            width: 60%;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        /* Container for Cards */
+        .social-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        /* Individual Social Cards */
+        .social-card {
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            background-color: #1f1f1f;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .social-card input {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            background-color: #292929;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .social-card button {
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Platform-Specific Styles */
+        .facebook {
+            border: 1px solid #3b5998;
+        }
+
+        .facebook h3 {
+            color: #3b5998;
+        }
+
+        .facebook button {
+            background-color: #3b5998;
+        }
+
+        .facebook button:hover {
+            background-color: #4a69ad;
+        }
+
+        .instagram {
+            border: 1px solid #e1306c;
+        }
+
+        .instagram h3 {
+            color: #e1306c;
+        }
+
+        .instagram button {
+            background-color: #e1306c;
+        }
+
+        .instagram button:hover {
+            background-color: #f94e89;
+        }
+
+        .tiktok {
+            border: 1px solid #000;
+        }
+
+        .tiktok h3 {
+            color: #fff;
+        }
+
+        .tiktok button {
+            background-color: #000;
+        }
+
+        .tiktok button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Full Width Profile Section -->
+    <div class="profile-section">
+        <!-- Left Section: Profile -->
+        <div class="profile-container">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-image" id="profile-image">
+            <div class="profile-name">Souop Sylvain Brayan</div>
+            <div class="username">@brayanj4y</div>
+            <div class="pronouns">he/him</div>
+
+            <button class="edit-btn">Edit Profile</button>
+
+            <div class="stats">
+                👥 <b>0</b> followers · <b>3</b> following
+            </div>
+
+            <div class="links">
+                <a href="https://orcid.org/0009-0009-6164-2596" target="_blank">ORCID Profile</a>
+                <a href="https://linkedin.com/in/brayan-j4y" target="_blank">LinkedIn</a>
+                <a href="https://roadmap.sh/u/souopsylvain" target="_blank">Roadmap Profile</a>
+                <a href="https://github.com/brayanj4y" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Right Section: Content Placeholder -->
+        <div class="content">
+            <h2>Connect Your Social Accounts</h2>
+            <p>📡 Integrate your social media platforms to analyze performance and reach your audience seamlessly!</p>
+
+            <!-- Social Account Boxes -->
+            <div class="social-container">
+
+                <!-- Facebook -->
+                <div class="social-card facebook">
+                    <h3>Facebook</h3>
+                    <input type="text" placeholder="Enter your Facebook username">
+                    <button>Connect to Facebook</button>
+                </div>
+
+                <!-- Instagram -->
+                <div class="social-card instagram">
+                    <h3>Instagram</h3>
+                    <input type="text" placeholder="Enter your Instagram username">
+                    <button>Connect to Instagram</button>
+                </div>
+
+                <!-- TikTok -->
+                <div class="social-card tiktok">
+                    <h3>TikTok</h3>
+                    <input type="text" placeholder="Enter your TikTok username">
+                    <button>Connect to TikTok</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
