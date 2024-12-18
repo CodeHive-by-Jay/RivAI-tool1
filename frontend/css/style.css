@@ -4,6 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
+    /* Prevents overflow of content causing scrollbars */
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
 }
 
 /* Navbar Container */
