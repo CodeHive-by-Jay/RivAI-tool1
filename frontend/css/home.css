@@ -94,39 +94,9 @@ h1 {
     background-color: #58a6ff;
 }
 
-.start-now {
-    background-color: #161b22;
-    color: #c9d1d9;
-    padding: 5px 10px;
-    border-radius: 15px;
-    border: 1px solid #30363d;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-.start-now:hover {
-    background-color: #58a6ff;
-}
-
-
 /* Home Container */
 .home-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
-
-.cards-container {
-    transition: opacity 0.5s ease-in-out;
-}
-
-#graph-section {
-    margin-top: 20px;
-}
-
-canvas {
-    max-width: 100%;
-    height: 400px;
 }
