@@ -1,0 +1,102 @@
+body {
+    background-color: #0d1117;
+    /* GitHub dark mode background */
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Section Headers */
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-header span {
+    font-size: 1.8rem;
+}
+
+.section-header h2 {
+    flex-grow: 1;
+    margin-left: 15px;
+    font-size: 1.8rem;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Cards Container */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #161b22;
+    /* Slightly lighter black */
+    border: 1px solid #30363d;
+    /* Gray border */
+    border-radius: 8px;
+    padding: 25px;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.card h3 a {
+    color: #58a6ff;
+    /* GitHub link blue */
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card p {
+    color: #8b949e;
+    /* Muted gray text */
+    font-size: 1.1rem;
+}
+
+.card.full-width {
+    grid-column: span 2;
+}
+
+/* See more tutorials */
+.more-tutorials {
+    background-color: #161b22;
+    color: #c9d1d9;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #30363d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.more-tutorials:hover {
+    background-color: #58a6ff;
+}
+
+/* Home Container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
