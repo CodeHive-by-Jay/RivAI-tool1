@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Analytics</title>
+</head>
+<style>
+    body {
+        background-color: #0d1117;
+        /* GitHub dark mode background */
+        color: #c9d1d9;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    /* Header */
+    h1 {
+        font-size: 2.8rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* Section Headers */
+    .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .section-header span {
+        font-size: 1.8rem;
+    }
+
+    .section-header h2 {
+        flex-grow: 1;
+        margin-left: 15px;
+        font-size: 1.8rem;
+    }
+
+    .menu-icon {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    /* Cards Container */
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background-color: #161b22;
+        /* Slightly lighter black */
+        border: 1px solid #30363d;
+        /* Gray border */
+        border-radius: 8px;
+        padding: 25px;
+        font-size: 1.2rem;
+    }
+
+    .card h3 {
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+    }
+
+    .card h3 a {
+        color: #58a6ff;
+        /* GitHub link blue */
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .card p {
+        color: #8b949e;
+        /* Muted gray text */
+        font-size: 1.1rem;
+    }
+
+    .card.full-width {
+        grid-column: span 2;
+    }
+
+    /* See more tutorials */
+    .more-tutorials {
+        color: #58a6ff;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+
+    .more-tutorials:hover {
+        text-decoration: underline;
+    }
+
+    /* Home Container */
+    .home-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div class="home-container">
+        <!-- Header -->
+        <h1>Social Media Analytics</h1>
+
+        <!-- Analytics Tutorials Section -->
+        <section class="tutorial-section">
+            <div class="section-header">
+                <span>📊</span>
+                <h2>Learn with analytics tutorials</h2>
+                <div class="menu-icon">⋯</div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <h3><a href="#">Introduction to Analytics</a></h3>
+                    <p>Understand the basics of social media analytics and key performance indicators (KPIs).</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">Tracking Engagement Metrics</a></h3>
+                    <p>Learn how to track likes, shares, and comments across multiple platforms.</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">Audience Insights</a></h3>
+                    <p>Analyze audience demographics, behaviors, and preferences using analytics tools.</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">Building Dashboards</a></h3>
+                    <p>Visualize your social media performance with custom analytics dashboards.</p>
+                </div>
+            </div>
+            <a href="#" class="more-tutorials">Explore more analytics tutorials</a>
+        </section>
+
+        <!-- Start Analyzing Data Section -->
+        <section class="writing-code-section">
+            <div class="section-header">
+                <span>📈</span>
+                <h2>Start analyzing your data</h2>
+                <div class="menu-icon">⋯</div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card full-width">
+                    <h3>Create your first analytics report</h3>
+                    <p>Generate a detailed report for your social media accounts, including growth trends and
+                        performance metrics.</p>
+                </div>
+                <div class="card full-width">
+                    <h3>Analyze top-performing posts</h3>
+                    <p>Identify which posts drive the most reach and
+                        interactions.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
