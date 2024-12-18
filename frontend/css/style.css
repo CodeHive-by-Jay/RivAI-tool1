@@ -80,31 +80,6 @@ body {
     width: 16px;
 }
 
-/* Notification Button */
-.notification-button {
-    padding: 0;
-    border: none;
-    background-color: #21262d;
-    color: #c9d1d9;
-    border-radius: 50%;
-    height: 36px;
-    width: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #30363d;
-    cursor: pointer;
-}
-
-.notification-button:hover {
-    background-color: #58a6ff;
-}
-
-.notification-button img {
-    height: 16px;
-    width: 16px;
-}
-
 /* Profile Icon */
 .profile-icon {
     border-radius: 50%;
